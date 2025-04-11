@@ -1,0 +1,15 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python bytecode
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore editor files (esim. VSCode)
+.vscode/
+
+# Ignore other system-specific files
+.DS_Store
+Thumbs.db

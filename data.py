@@ -8,8 +8,7 @@ def load_and_preprocess_data():
  df = pd.read_csv('datasets/cumulative.csv')
  y = df['koi_disposition']
  X = df.drop(['koi_disposition', 'rowid'], axis=1)
- X = pd.get_dummies(X)
- imputer = SimpleImputer(strategy='mean')
+ imputer = SimpleImputer(strategy='mean') # Käytetään keskiarvoa täyttämään puuttuvat arvot
  X = imputer.fit_transform(X)
  return X,y
 

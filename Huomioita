@@ -1,0 +1,13 @@
+Koska en saanut koneoppimismallia valmiiksi, loin pisteytysmallin joka toimii ikään kuin 
+koneoppimismalli: 
+Tasapainolämpötila (koi_teq) – pisteitä annetaan, jos lämpötila on välillä 180–310 K, joka vastaa suunnilleen nestemäisen veden esiintymisen aluetta.
+
+Tähden säde (koi_srad) – sopivan kokoinen tähti (0.7–1.4 Auringon säteen verran) on elämän kannalta suotuisampi.
+
+Planeetan säde (koi_prad) – Maankaltaiset kiviplaneetat sijaitsevat tyypillisesti välillä 0.8–1.8 Maan säteen yksikköä.
+
+Tässä on käytetty apuna chat gpt-4.0 mallia, jonka avulla pystyin luomaan 
+pisteytysmallin joka demoaa koneoppimismallin toimintaa. Tehtävän ideana on ilmaista osaamistani kuvantaa 
+dataa pythonilla. Chat gpt auttoi minua käyttämään oleellisia
+luonnontieteellisiä tietoja kuten "Maankaltaiset kiviplaneetat sijaitsevat tyypillisesti välillä 0.8–1.8 Maan säteen yksikköä." Tätä tietoa 
+ minulla ei ole omasta takaa, koska en ole luonnontieteilijä.
